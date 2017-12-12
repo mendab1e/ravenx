@@ -46,7 +46,7 @@ defmodule Ravenx.Mixfile do
   defp deps do
     [
       {:poison, "~> 2.0 or ~> 3.0"},
-      {:httpoison, "~> 0.10.0"},
+      {:httpoison, "~> 0.11.1"},
       {:bamboo, "~> 0.8.0"},
       {:bamboo_smtp, "~> 1.3.0"},
       {:ex_doc, ">= 0.0.0", only: :dev},
